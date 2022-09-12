@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title> Calculator </title>
+
+<script src="script.js"></script> 
+<link rel="stylesheet" href="style.css">
+   
+
+</head>
+<body>
+   
+    <div class="container">
+        <div class="box">
+            <form name="cal">
+                <input id="display" type="text" name="display" placeholder="0" readonly>
+                <br>
+                <input class="button" type="button" value="7" onclick="dis('7')"/>
+                <input class="button" type="button" value="8" onclick="dis('8')"/>
+                <input class="button" type="button" value="9" onclick="dis('9')"/>
+                <input class="button math" type="button" value="+" onclick="dis('+')"/>
+                <br>
+                <input class="button" type="button" value="4" onclick="dis('4')"/>
+                <input class="button" type="button" value="5" onclick="dis('5')"/>
+                <input class="button" type="button" value="6" onclick="dis('6')"/>
+                <input class="button math" type="button" value="&#8722" onclick="dis('-')"/>
+                <br>
+                <input class="button" type="button" value="1" onclick="dis('1')"/>
+                <input class="button" type="button" value="2" onclick="dis('2')"/>
+                <input class="button" type="button" value="3" onclick="dis('3')"/>
+                <input class="button math" type="button" value="&#215" onclick="dis('*')"/>
+                <br>
+                <input class="button math" type="button" value="%" onclick="dis('%')"/>
+                <input class="button" type="button" value="0" onclick="dis('0')"/>
+                <input class="button dec" type="button" value="." onclick="dis('.')"/>
+                <input class="button math" type="button" value="&#247" onclick="dis('/')"/>
+               
+                
+                <br>
+                &emsp;&emsp;&emsp;
+                <input class="button math" type="button" value="=" onclick="sl()"/>
+                
+                <input class="button clear" type="button" value="C" onclick="clr()"/>
+            </form>
+
+        </div>
+
+    </div>
+     
+</body>

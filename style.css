@@ -1,0 +1,61 @@
+body{
+   background-image: url(image.jpg);
+}
+
+.container{
+    width: 250px;
+    height: 400px;
+    margin: 80px auto;
+    background: burlywood;
+    box-shadow: 5px 5px 10px;
+}
+.box{
+    width: 200px ;
+    margin: 20px auto;
+}
+#display{
+    border: none;
+    outline: none;
+    color: black;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    margin: 30px 0 20px 0;
+    background: transparent;
+    background-color: cornsilk;
+    box-shadow: inset 2px 2px 5px;
+}
+.button{
+    margin: 15px 0 0 5px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px;
+    display: inline-block;
+
+
+}
+
+.button:active{
+    box-shadow: inset 1px 1px 2px ,inset -1px -1px 2px;
+
+}
+
+.clear{
+    background: rgb(255, 30, 0);
+    color: white;
+
+}
+.math{
+    background: black;
+    color: white;
+}
+
